@@ -10,6 +10,10 @@ nav {
 
 .navbar {
   position:sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
 }
 
 /* Utility */
