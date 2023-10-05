@@ -1,5 +1,4 @@
-import React from 'react'
-import HeroImage from '../assets/hero-grid.png'
+import HeroImage from '../../public/assets/hero-grid.png'
 
 function Hero() {
   return (

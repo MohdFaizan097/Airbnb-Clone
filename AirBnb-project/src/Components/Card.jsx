@@ -1,23 +1,23 @@
-import React from 'react'
-import Img1 from '../assets/img-1.webp'
-
-function Card() {
+function Card(props) {
   return (
     <>
+    
     <section>
       <div className="card-box">
         <div className="img-box">
-        <img src= {Img1} alt="" className='card-img'/>
+        <img src={props.img} alt="" className="card-img"/>
         </div>
         <div className="text-box">
-          <h2>Nashik, India</h2>
-          <p className='gray'>150 KM away</p>          
-          <p><span className='bold-text'>Rs.5706</span> night</p>          
+          <h2 className="card-title">{props.name}</h2>
+          <p className='gray'>{props.distance}</p>          
+          <p><span className='bold-text'>{props.price}</span> night</p>          
 
         </div>
 
       </div>
-    </section>
+      </section>
+    
+
     </>
   )
 }
