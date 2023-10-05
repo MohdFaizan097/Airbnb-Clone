@@ -1,5 +1,4 @@
-/* Navbar Styling  */
-
+/* Navbar styling */
 nav {
   display: flex;
   height: 70px;
@@ -15,10 +14,8 @@ nav {
   background-color: #fff;
 }
 
-/* Utility */
-
-
 /* Hero styling */
+
 
 .hero-container{
   display: flex;
@@ -41,6 +38,7 @@ nav {
   padding: 5px 30px;
 }
 
+/* Cards styling */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -115,12 +113,6 @@ nav {
   content: "\20B9";
 }
 
-/* 
- .card-box {
-  width: 300px;
-  font-size: 13px;
-  font-family: var(--primary-font);
-}
 
 
 
